@@ -1,0 +1,153 @@
+{
+    "locations": [
+        {
+            "id": 1,
+            "name": "East Nashville",
+            "address": "2873 Darwin Motorway",
+            "squareFootage": 450,
+            "isAccessible": false
+        },{
+            "id": 2,
+            "name": "Franklin",
+            "address": "3407 Joan Dale",
+            "squareFootage": 675,
+            "isAccessible": true
+        },{
+            "id": 3,
+            "name": "West Nashville",
+            "address": "100 Easton Overpass",
+            "squareFootage": 1000,
+            "isAccessible": true
+        }
+    ],
+    "products": [
+        {
+            "id": 1,
+            "name": "Green Apple Gummies",
+            "productTypeId": 1,
+            "price": 3.49 
+        },
+        {
+            "id": 2,
+            "name": "Watermelon Gummies",
+            "productTypeId": 1,
+            "price": 3.49 
+        },
+        {
+            "id":3,
+            "name": "Sour Worm Gummies",
+            "productTypeId": 1,
+            "price": 3.49 
+        },
+        {
+            "id": 4,
+            "name": "Blue Raspberry Mini Gummies",
+            "productTypeId": 1,
+            "price": 2.49 
+        },
+        {
+            "id": 5,
+            "name": "Homemade Milk Chocolate Bar",
+            "productTypeId": 2,
+            "price": 4.39
+        },
+        {
+            "id": 6,
+            "name": "Homemade Dark Chocolate Bar",
+            "productTypeId": 2,
+            "price": 4.49 
+        },
+        {
+            "id": 7,
+            "name": "Caramel-Filled Chocolate Bites",
+            "productTypeId": 2,
+            "price": 5.99 
+        },
+        {
+            "id": 8,
+            "name": "Assorted Hard Candy Bag",
+            "productTypeId": 3,
+            "price": 6.29
+        },
+        {
+            "id": 9,
+            "name": "Caramel Hard Candy Bag",
+            "productTypeId": 3,
+            "price": 6.29
+        },
+        {
+            "id": 10,
+            "name": "Homemade Salt Water Taffy",
+            "productTypeId": 4,
+            "price": 4.79
+        }
+    ],
+    "productsLocations": [
+        {"id": 1, "productId": 1, "locationId": 1},
+        {"id": 2, "productId": 5, "locationId": 1},
+        {"id": 3, "productId": 6, "locationId": 1},
+        {"id": 4, "productId": 7, "locationId": 1},
+        {"id": 5, "productId": 2, "locationId": 2},
+        {"id": 6, "productId": 3, "locationId": 2},
+        {"id": 7, "productId": 4, "locationId": 2},
+        {"id": 8, "productId": 8, "locationId": 3},
+        {"id": 9, "productId": 9, "locationId": 3},
+        {"id": 10, "productId": 10, "locationId": 3},
+        {"id": 11, "productId": 2, "locationId": 1},
+        {"id": 12, "productId": 3, "locationId": 1},
+        {"id": 13, "productId": 4, "locationId": 1},
+        {"id": 14, "productId": 1, "locationId": 2},
+        {"id": 15, "productId": 7, "locationId": 2},
+        {"id": 16, "productId": 8, "locationId": 2},
+        {"id": 17, "productId": 9, "locationId": 2},
+        {"id": 18, "productId": 10, "locationId": 2},
+        {"id": 19, "productId": 6, "locationId": 3}
+    ],
+    "employees": [
+        {
+            "id": 1,
+            "name": "Tricia Nikolaus",
+            "locationId": 1,
+            "address": "938 Hegmann Pike",
+            "phoneNumber": "381-711-3494"
+        },{
+            "id": 2,
+            "name": "Sherri Skiles",
+            "locationId": 1,
+            "address": "3882 Gulgowski Terrace",
+            "phoneNumber": "967-755-0461"
+        },{
+            "id": 3,
+            "name": "Cory Stamm",
+            "locationId": 2,
+            "address": "406 Herzog Roads",
+            "phoneNumber": "237-651-4005"
+        },{
+            "id": 4,
+            "name": "Victor Stehr ",
+            "locationId": 2,
+            "address": "384 Sauer Stream",
+            "phoneNumber": "960-354-4563"
+        },{
+            "id": 5,
+            "name": "Connie Tremblay",
+            "locationId": 3,
+            "address": "13223 Madge Station",
+            "phoneNumber": "369-261-2429"
+        },{
+            "id": 6,
+            "name": "Darren Kiehn",
+            "locationId": 3,
+            "address": "368 Shayne Extensions",
+            "phoneNumber": "230-595-5078"
+        }
+    ],
+    "productTypes": [
+        {"id": 1, "name": "Gummies"},
+        {"id": 2, "name": "Chocolate"},
+        {"id": 3, "name": "Hard Candy"},
+        {"id": 4, "name": "Taffy"}
+    ],
+    "customers": [],
+    "purchases": []
+}
